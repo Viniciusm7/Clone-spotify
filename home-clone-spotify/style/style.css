@@ -1,0 +1,126 @@
+.middle {
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
+  background-color: blue;
+  background-size: 100%;
+}
+
+.middle .middle-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle .middle-part h2 {
+  font-size: 7rem;
+  color: #7cda7c;
+}
+
+.middle .middle-part h2 .text-colorid {
+  color: blue;
+}
+
+.middle .middle-part p {
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: #7cda7c;
+}
+
+.middle .middle-part .primary {
+  padding: 0.9rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5rem 5rem 5rem 5rem;
+  letter-spacing: 0.4rem;
+  padding-bottom: -1rem;
+  color: black;
+  background-color: #7cda7c;
+  cursor: pointer;
+}
+
+.superlink {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5rem;
+  position: fixed;
+  top: 0;
+}
+
+.superlink .link {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.superlink .link .logo {
+  height: 2rem;
+  width: auto;
+}
+
+.superlink .link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.superlink .link ul li, .superlink .link ul a {
+  color: var(--white);
+  padding: 0rem 0.8rem;
+  text-decoration: none;
+}
+
+.superlink .link ul ul, .superlink .link ul li:nth-child(3) {
+  border-right: 0.1rem solid var(--white);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --green: #008000;
+}
+
+:hover .primary, ul, li {
+  color: white;
+  opacity: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

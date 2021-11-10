@@ -1,0 +1,25 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+
+//variables
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --green: #008000;
+
+}
+
+:hover .primary, ul, li {
+    color: white;
+    opacity: 1rem;
+}

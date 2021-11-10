@@ -1,0 +1,49 @@
+.middle{ // parte central da home, meio.    
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
+    background-color: blue;
+    background-size: 100%;
+
+    .middle-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2{
+            font-size: 7rem;
+            color: rgb(124, 218, 124);
+            
+            .text-colorid{
+                color: blue;
+            }
+            
+        }
+
+        p{
+            padding: 2rem;
+            font-size: 1.5rem;
+            color: rgb(124, 218, 124);
+        }
+
+        .primary{
+            padding: 0.9rem;
+            text-transform: uppercase;
+            border: none;
+            border-radius:5rem 5rem 5rem 5rem;
+            letter-spacing: 0.4rem;
+            padding-bottom: -1rem;
+            color: black;
+            background-color: rgb(124, 218, 124);
+            cursor: pointer;
+            
+
+
+
+            
+        }
+
+    }
+}
